@@ -1,7 +1,7 @@
 
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = 'Click on me ';
+    button.innerText = 'X';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
